@@ -44,6 +44,7 @@ export default function Users() {
       },
     });
   };
+  console.log(data.users.edges);
   return (
     <div>
       <h2>Users Admin Panel</h2>
